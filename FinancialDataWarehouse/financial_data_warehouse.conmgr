@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="financial_data_warehouse"
+  DTS:DTSID="{15B1BEF6-3366-4F01-A8E8-37DC3BF734CD}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=financial_data_warehouse;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-FinancialTransactions-{15B1BEF6-3366-4F01-A8E8-37DC3BF734CD}localhost.financial_data_warehouse;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
